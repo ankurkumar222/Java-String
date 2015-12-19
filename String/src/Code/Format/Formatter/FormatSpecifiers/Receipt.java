@@ -1,13 +1,12 @@
 package Code.Format.Formatter.FormatSpecifiers;
 
-//: strings/Receipt.java
-import java.util.*;
+import java.util.Formatter;
 
 public class Receipt {
   private double total = 0;
   private Formatter f = new Formatter(System.out);
   public void printTitle() {
-    f.format("%-15s %5s %10s\n", "Item", "Qty", "Price");
+    f.format("%-15s %5s %10s\n", "Item", "Qty", "Price");//-  to left justified data
     f.format("%-15s %5s %10s\n", "----", "---", "-----");
   }
   public void print(String name, int qty, double price) {

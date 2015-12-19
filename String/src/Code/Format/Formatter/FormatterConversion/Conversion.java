@@ -1,6 +1,5 @@
 package Code.Format.Formatter.FormatterConversion;
 
-//: strings/Conversion.java
 import java.math.*;
 import java.util.*;
 
@@ -74,10 +73,4 @@ public class Conversion {
 		// f.format("x: %x\n", z);
 		f.format("h: %h\n", z);
 	}
-} /*
- * Output: (Sample) u = 'a' s: a c: a b: true h: 61 v = 121 d: 121 c: y b: true
- * s: 121 x: 79 h: 79 w = new BigInteger("50000000000000") d: 50000000000000 b:
- * true s: 50000000000000 x: 2d79883d2000 h: 8842a1a7 x = 179.543 b: true s:
- * 179.543 f: 179.543000 e: 1.795430e+02 h: 1ef462c y = new Conversion() b: true
- * s: Conversion@9cab16 h: 9cab16 z = false b: false s: false h: 4d5
- */// :~
+} 

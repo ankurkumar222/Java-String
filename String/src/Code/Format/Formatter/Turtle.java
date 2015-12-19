@@ -1,6 +1,5 @@
 package Code.Format.Formatter;
-
-//: strings/Turtle.java
+//Formatter
 import java.io.*;
 import java.util.*;
 
@@ -15,7 +14,7 @@ public class Turtle {
 
 	public void move(int x, int y) {
 		f.format("%s The Turtle is at (%d,%d)\n", name, x, y);
-		System.out.print(name+"The Turtle is at "+x+y);
+		System.out.print(name + "The Turtle is at " + x + y);
 	}
 
 	public static void main(String[] args) {
