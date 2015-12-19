@@ -1,6 +1,5 @@
 package Code.Format.Regex.Basic;
 
-//: strings/Replacing.java
 import static util.Print.*;
 
 public class Replacing {

@@ -1,6 +1,5 @@
 package Code.Format.Regex.PatternAndMatcher;
 
-//: strings/StartEnd.java
 import java.util.regex.*;
 import static util.Print.*;
 

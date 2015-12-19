@@ -1,7 +1,10 @@
 package Code.Format.Regex.Basic;
 
 import java.util.*;
-
+/*  
+ * \W: Non word character
+ * \w: word character
+*/
 public class Splitting {
 	public static String knights = "Then, when you have found the shrubbery, you must "
 			+ "cut down the mightiest tree in the forest... "
@@ -16,4 +19,4 @@ public class Splitting {
 		split("\\W+"); // Non-word characters
 		split("n\\W+"); // 'n' followed by non-word characters
 	}
-} 
+}

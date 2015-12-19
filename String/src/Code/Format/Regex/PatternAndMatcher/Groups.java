@@ -28,3 +28,5 @@ public class Groups {
 		}
 	}
 } 
+
+//    \S+ : any no. of non whitespace character \s+ followed by any number of whiteSpace character
