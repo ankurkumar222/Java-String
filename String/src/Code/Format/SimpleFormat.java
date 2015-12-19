@@ -1,3 +1,5 @@
+package Code.Format;
+
 public class SimpleFormat {
 	public static void main(String[] args) {
 		int x = 5;
